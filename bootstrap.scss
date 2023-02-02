@@ -1,26 +1,44 @@
-/******* Customized Bootstrap ********/
+/*!
+ * Bootstrap v4.5.3 (https://getbootstrap.com/)
+ * Copyright 2011-2020 The Bootstrap Authors
+ * Copyright 2011-2020 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */
 
-$primary: #E88F2A;
-$secondary: #FAF3EB;
-$light: #FFFFFF;
-$dark: #2B2825;
-
-$font-family-sans-serif: 'Open Sans', sans-serif;
-
-$headings-font-family: 'Oswald', sans-serif;
-
-$body-color: #656565;
-
-$headings-color: $dark;
-
-$display-font-weight: 700;
-
-$enable-responsive-font-sizes: true;
-
-$border-radius: false;
-
-$link-decoration: none;
-
-$enable-negative-margins: true;
-
-@import "bootstrap/scss/bootstrap";
+@import "functions";
+@import "variables";
+@import "mixins";
+@import "root";
+@import "reboot";
+@import "type";
+@import "images";
+@import "code";
+@import "grid";
+@import "tables";
+@import "forms";
+@import "buttons";
+@import "transitions";
+@import "dropdown";
+@import "button-group";
+@import "input-group";
+@import "custom-forms";
+@import "nav";
+@import "navbar";
+@import "card";
+@import "breadcrumb";
+@import "pagination";
+@import "badge";
+@import "jumbotron";
+@import "alert";
+@import "progress";
+@import "media";
+@import "list-group";
+@import "close";
+@import "toasts";
+@import "modal";
+@import "tooltip";
+@import "popover";
+@import "carousel";
+@import "spinners";
+@import "utilities";
+@import "print";
